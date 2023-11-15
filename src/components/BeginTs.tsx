@@ -18,7 +18,7 @@ const massStr: string[] = [];
 let result2: string = "2 - ";
 
 for (let i: number = 97; i <= 106; i++) {
-  massStr[i] = String.fromCharCode(i); // англ.буква по аски коду
+  massStr[i] = String.fromCharCode(i); // англ.буквы по аски коду
   if (i < 106) {
     result2 += massStr[i] + ", ";
   } else {
@@ -53,7 +53,7 @@ let result4: string = "4 - ";
 
 for (let i: number = 1; i <= 10; i++) {
   let obj: myobj = {
-    name: String.fromCharCode(i + 96),
+    name: String.fromCharCode(i + 96), // англ.буквы по аски коду
     age: i,
   };
   massObj[i] = obj;
